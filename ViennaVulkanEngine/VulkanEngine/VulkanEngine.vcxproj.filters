@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VEEventListener">
+      <UniqueIdentifier>{9cf20900-e4c7-40a8-9abf-042c3c761479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VESubrender">
+      <UniqueIdentifier>{c8466613-f4a9-4c88-80c2-ed609015f0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{ce0ac7ac-7b5a-4df0-b45f-cba68da392cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VEEventListener">
+      <UniqueIdentifier>{4f3aac8f-2864-46de-9425-0085a207a838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VESubrender">
+      <UniqueIdentifier>{dfc1647a-4e78-4849-a949-6f6cf7606d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{5f2f439f-74ed-48cc-b7ce-770bea1f7f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VHelper">
+      <UniqueIdentifier>{97507648-312a-4693-9a61-5563a8f0123b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VHelper">
+      <UniqueIdentifier>{6a52e981-61c4-42e0-aadb-431516ce8e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NVHelpers">
+      <UniqueIdentifier>{c2577431-9d51-4063-871e-2a39b0bfe516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NVHelpers">
+      <UniqueIdentifier>{9e8131b8-d5fd-46e5-bf2d-af1fb9f4169b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{cd684544-89df-4b73-8d47-f43cd2a9b3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{2a3390f6-4a11-4e9c-b0cb-3bcd56fce1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Chess">
+      <UniqueIdentifier>{be97229c-6240-4941-be53-577b678c733b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\EventListener">
+      <UniqueIdentifier>{8cba8a0d-ad3f-47ec-b2e6-55be09d9c0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Communication">
+      <UniqueIdentifier>{b1086ff8-59ee-46c6-a7c0-40ab4ee723aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Chess">
+      <UniqueIdentifier>{d1ea4ad0-d85a-4b4a-9d73-56bf00003982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Communication">
+      <UniqueIdentifier>{84478011-f472-4f6e-9715-04291fedb499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\EventListener">
+      <UniqueIdentifier>{a26bc15a-a43b-441d-9f78-a5773aad6312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Chess\Figures">
+      <UniqueIdentifier>{04ad6bdd-e177-4805-a922-b2aa608ae593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Chess\Game">
+      <UniqueIdentifier>{c0e2a37c-f5c1-40c2-8943-b9a9142750cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Chess\Figures">
+      <UniqueIdentifier>{d7d21b91-6da7-410d-ad0a-549a610cf74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Chess\Game">
+      <UniqueIdentifier>{036ee75b-6aa8-46bb-b089-b30ab0dd13d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Chess\Helper">
+      <UniqueIdentifier>{013a801c-7ebb-4c5d-9239-83bfd3c2519b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Chess\Helper">
+      <UniqueIdentifier>{02e46d4b-4ec3-444f-aa98-a4141857f1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Hitboxes">
+      <UniqueIdentifier>{702568eb-db9c-47dd-b85f-cd3144d04ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Hitboxes">
+      <UniqueIdentifier>{ffbd2279-c3b8-43a4-8ed1-bb730e253476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VEEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VERenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEWindowGLFW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VERendererForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VESceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VENamedClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vk_mem_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEventListenerGLFW.h">
+      <Filter>Header Files\VEEventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEventListenerNuklear.h">
+      <Filter>Header Files\VEEventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="CLInclude.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CLShape.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW_C1.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW_D.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW_DN.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrender_Nuklear.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW_Shadow.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW_Skyplane.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEventListener.h">
+      <Filter>Header Files\VEEventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrender.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEventListenerNuklearDebug.h">
+      <Filter>Header Files\VEEventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderFW.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\threadpool\ThreadPool.h">
+      <Filter>Header Files\VHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="VHHelper.h">
+      <Filter>Header Files\VHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="VHFunctions.h">
+      <Filter>Header Files\VHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="VERendererRayTracingNV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomLevelASGenerator.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorSetGenerator.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="RaytracingPipelineGenerator.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBindingTableGenerator.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TopLevelASGenerator.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="VKHelpers.h">
+      <Filter>Header Files\NVHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderRayTracingNV_DN.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderRayTracingNV.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VERendererDeferred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_C1.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_Composer.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_D.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_DN.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_Shadow.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF_Skyplane.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderDF.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VEEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderRayTracingKHR.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VESubrenderRayTracingKHR_DN.h">
+      <Filter>Header Files\VESubrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VERendererRayTracingKHR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessEngine.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessInclude.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerGUI.h">
+      <Filter>Header Files\Game\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerRecord.h">
+      <Filter>Header Files\Game\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPSend6.h">
+      <Filter>Header Files\Game\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Chessboard.h">
+      <Filter>Header Files\Game\Chess\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Header Files\Game\Chess\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files\Game\Chess\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessCoordinates.h">
+      <Filter>Header Files\Game\Chess\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerUser.h">
+      <Filter>Header Files\Game\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Game\Hitboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>Header Files\Game\Hitboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereHitbox.h">
+      <Filter>Header Files\Game\Hitboxes</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Game\Chess\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPReceive6.h">
+      <Filter>Header Files\Game\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerCloudInput.h">
+      <Filter>Header Files\Game\EventListener</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VEEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VEWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VERenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VEWindowGLFW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VERendererForward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VESceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VEEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VENamedClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VEMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLIntersect.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="VEEventListenerGLFW.cpp">
+      <Filter>Source Files\VEEventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="VEEventListenerNuklear.cpp">
+      <Filter>Source Files\VEEventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW_C1.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW_D.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW_DN.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrender_Nuklear.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW_Shadow.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW_Skyplane.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VHBuffer.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHCommand.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHDebug.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHDevice.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHFile.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHMemory.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHRender.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHSwapchain.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VEEventListener.cpp">
+      <Filter>Source Files\VEEventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrender.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VEEventListenerNuklearDebug.cpp">
+      <Filter>Source Files\VEEventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderFW.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VEDocumentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\threadpool\ThreadPool.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VHFunctions.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="VERendererRayTracingNV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomLevelASGenerator.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorSetGenerator.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="RaytracingPipelineGenerator.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBindingTableGenerator.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="TopLevelASGenerator.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="VKHelpers.cpp">
+      <Filter>Source Files\NVHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderRayTracingNV_DN.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderRayTracingNV.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VERendererDeferred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_C1.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_Composer.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_D.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_DN.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_Shadow.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderDF_Skyplane.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderRayTracingKHR.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VESubrenderRayTracingKHR_DN.cpp">
+      <Filter>Source Files\VESubrender</Filter>
+    </ClCompile>
+    <ClCompile Include="VERendererRayTracingKHR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VHRayTracing.cpp">
+      <Filter>Source Files\VHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessEngine.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerGUI.cpp">
+      <Filter>Source Files\Game\EventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerRecord.cpp">
+      <Filter>Source Files\Game\EventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPSend6.cpp">
+      <Filter>Source Files\Game\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Chessboard.cpp">
+      <Filter>Source Files\Game\Chess\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>Source Files\Game\Chess\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Source Files\Game\Chess\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessCoordinates.cpp">
+      <Filter>Source Files\Game\Chess\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerUser.cpp">
+      <Filter>Source Files\Game\EventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Game\Hitboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>Source Files\Game\Hitboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereHitbox.cpp">
+      <Filter>Source Files\Game\Hitboxes</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Game\Chess\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPReceive6.cpp">
+      <Filter>Source Files\Game\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerCloudInput.cpp">
+      <Filter>Source Files\Game\EventListener</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VHFunctions.inl">
+      <Filter>Header Files\VHelper</Filter>
+    </None>
+  </ItemGroup>
+</Project>

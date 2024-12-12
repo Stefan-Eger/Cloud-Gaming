@@ -1,0 +1,31 @@
+﻿  Quellen werden auf Modulabhängigkeiten überprüft...
+  ClientInclude.h
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\ClientInclude.h(3,-2104592) : warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+  Kompilieren...
+  ClientInclude.h
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\ClientInclude.h(3,1): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\concrt.h(2183,20): warning C5260: Die Konstantenvariable „Concurrency::MaxExecutionResources“ weist eine interne Bindung in einem eingeschlossenen Headerdateikontext auf, aber eine externe Verknüpfung im importierten Headereinheitskontext. Erwägen Sie, sie auch als „Inline“ zu deklarieren, wenn sie über Übersetzungseinheiten hinweg freigegeben wird, oder „statisch“, um die Absicht auszudrücken, sie lokal für diese Übersetzungseinheit zu verwenden.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\concrt.h(2191,20): warning C5260: Die Konstantenvariable „Concurrency::INHERIT_THREAD_PRIORITY“ weist eine interne Bindung in einem eingeschlossenen Headerdateikontext auf, aber eine externe Verknüpfung im importierten Headereinheitskontext. Erwägen Sie, sie auch als „Inline“ zu deklarieren, wenn sie über Übersetzungseinheiten hinweg freigegeben wird, oder „statisch“, um die Absicht auszudrücken, sie lokal für diese Übersetzungseinheit zu verwenden.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\concrt.h(3473,14): warning C5260: Die Konstantenvariable „Concurrency::COOPERATIVE_WAIT_TIMEOUT“ weist eine interne Bindung in einem eingeschlossenen Headerdateikontext auf, aber eine externe Verknüpfung im importierten Headereinheitskontext. Erwägen Sie, sie auch als „Inline“ zu deklarieren, wenn sie über Übersetzungseinheiten hinweg freigegeben wird, oder „statisch“, um die Absicht auszudrücken, sie lokal für diese Übersetzungseinheit zu verwenden.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\concrt.h(3482,20): warning C5260: Die Konstantenvariable „Concurrency::COOPERATIVE_TIMEOUT_INFINITE“ weist eine interne Bindung in einem eingeschlossenen Headerdateikontext auf, aber eine externe Verknüpfung im importierten Headereinheitskontext. Erwägen Sie, sie auch als „Inline“ zu deklarieren, wenn sie über Übersetzungseinheiten hinweg freigegeben wird, oder „statisch“, um die Absicht auszudrücken, sie lokal für diese Übersetzungseinheit zu verwenden.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\atomic(325,35): warning C5260: Die Konstantenvariable „std::memory_order const (* `std::memory_order __cdecl std::_Combine_cas_memory_orders(std::memory_order,std::memory_order)'::`2'::_Combined_memory_orders)[6]“ weist eine interne Bindung in einem eingeschlossenen Headerdateikontext auf, aber eine externe Verknüpfung im importierten Headereinheitskontext. Erwägen Sie, sie auch als „Inline“ zu deklarieren, wenn sie über Übersetzungseinheiten hinweg freigegeben wird, oder „statisch“, um die Absicht auszudrücken, sie lokal für diese Übersetzungseinheit zu verwenden.
+  UDPReceive6.cpp
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\ClientInclude.h(3,1): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\UDPReceive6.cpp(18,15): warning C4244: "=": Konvertierung von "SOCKET" in "int", möglicher Datenverlust
+  UDPSend6.cpp
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\ClientInclude.h(3,1): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\UDPSend6.cpp(18,15): warning C4244: "=": Konvertierung von "SOCKET" in "int", möglicher Datenverlust
+  main.cpp
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\ClientInclude.h(3,1): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(202,7): warning C4101: "buf": Unreferenzierte lokale Variable
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(245,119): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(346,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(352,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(360,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(365,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(370,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(375,40): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  Code wird generiert...
+C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\Receiver\main.cpp(239): warning C4715: "decode": Nicht alle Codepfade geben einen Wert zurück.
+main.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /INCREMENTAL:NO ignoriert.
+  Receiver.vcxproj -> C:\Users\Steve\Desktop\CG\Chess Game\Client\Receiver\x64\Debug\Receiver.exe
